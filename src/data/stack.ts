@@ -2,70 +2,71 @@ import type { StackCategory } from '@/types'
 
 export const stack: StackCategory[] = [
   {
-    label: 'linguagens & backend',
+    label: 'backend',
     items: [
-      {
-        name: 'Java',
-        sub: [
-          'Spring Boot',
-          'Spring Security',
-          'JPA/Hibernate',
-          'Thymeleaf',
-          'Flyway',
-        ],
-      },
-      {
-        name: 'Node.js/TypeScript',
-        sub: ['NestJS', 'Express.js'],
-      },
+      { name: 'Java' },
+      { name: 'Spring Boot' },
+      { name: 'Spring Security' },
+      { name: 'JPA / Hibernate' },
+      { name: 'Flyway' },
+      { name: 'Node.js' },
+      { name: 'TypeScript' },
+      { name: 'NestJS' },
+      { name: 'Express.js' },
+      { name: 'Prisma ORM' },
+    ],
+  },
+  {
+    label: 'frontend',
+    items: [
+      { name: 'React' },
+      { name: 'Next.js' },
+      { name: 'JavaScript' },
+      { name: 'Tailwind CSS' },
+      { name: 'HTML' },
+      { name: 'CSS' },
     ],
   },
   {
     label: 'cloud & infra',
     items: [
       { name: 'Docker' },
-      { name: 'AWS', sub: ['S3', 'EC2', 'RDS', 'Lambda'] },
-      { name: 'CI/CD', sub: ['GitHub Actions'] },
-      { name: 'Git' },
+      { name: 'AWS EC2' },
+      { name: 'AWS S3' },
+      { name: 'AWS RDS' },
+      { name: 'AWS Lambda' },
+      { name: 'Terraform' },
+      { name: 'CI/CD (GitHub Actions, Vercel)' },
     ],
   },
   {
-    label: 'mensageria & event-driven',
+    label: 'mensageria & eventos',
     items: [
       { name: 'Apache Kafka' },
-      { name: 'RabbitMQ' },
-      { name: 'Arquitetura de Microsserviços' },
+      { name: 'Microservices' },
+      { name: 'Event-Driven Architecture' },
     ],
   },
   {
-    label: 'banco de dados & armazenamento',
+    label: 'dados & cache',
     items: [
-      { name: 'SQL', sub: ['PostgreSQL', 'MySQL', 'SQL Server'] },
-      { name: 'NoSQL', sub: ['MongoDB', 'Redis'] },
+      { name: 'PostgreSQL' },
+      { name: 'MySQL' },
+      { name: 'Oracle Database' },
+      { name: 'MongoDB' },
+      { name: 'Redis' },
     ],
   },
   {
-    label: 'frontend & web',
+    label: 'testes & metodologias',
     items: [
-      { name: 'React' },
-      { name: 'Next.js' },
-      { name: 'HTML' },
-      { name: 'CSS' },
-      { name: 'JavaScript' },
+      { name: 'JUnit' },
+      { name: 'Mockito' },
+      { name: 'Vitest' },
+      { name: 'TDD' },
+      { name: 'Scrum' },
+      { name: 'Kanban' },
+      { name: 'SOLID' },
     ],
   },
-  {
-    label: 'testes',
-    items: [{ name: 'JUnit' }, { name: 'Mockito' }],
-  },
-]
-
-export const softSkills: string[] = [
-  'aprendizado rápido',
-  'atenção a detalhes',
-  'pensamento analítico',
-  'comunicação clara',
-  'autogestão',
-  'colaboração',
-  'resolução de problemas',
 ]

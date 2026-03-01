@@ -9,5 +9,5 @@ export const siteConfig = {
   linkedin: 'https://linkedin.com/in/caue-gomes',
   email: 'caue.gprieto@gmail.com',
   phone: '+5592981223296',
-  resume: '/curriculo.pdf',
+  resume: '/resume.pdf',
 } as const

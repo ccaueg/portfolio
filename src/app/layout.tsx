@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/security/noDangerouslySetInnerHtml: false */
 import type { Metadata, Viewport } from 'next'
 import { JetBrains_Mono } from 'next/font/google'
 import { Footer } from '@/components/layout/footer'
@@ -114,6 +115,22 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
       </body>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Cauê Gomes',
+            url: 'https://cauegomes.dev',
+            jobTitle: 'Backend Developer',
+            sameAs: [
+              'https://github.com/ccaueg',
+              'https://linkedin.com/in/caue-gomes',
+            ],
+          }),
+        }}
+      />
     </html>
   )
 }

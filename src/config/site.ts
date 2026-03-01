@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Cauê Gomes',
-  role: 'Desenvolvedor Web',
+  role: 'Desenvolvedor Backend',
   location: 'Manaus, BR',
   description: 'Sistemas web, microsserviços e aplicações escaláveis.',
   url: 'https://cauegomes.dev',

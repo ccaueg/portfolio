@@ -2,8 +2,7 @@ export const siteConfig = {
   name: 'Cauê Gomes',
   role: 'Desenvolvedor Web',
   location: 'Manaus, BR',
-  description:
-    'Desenvolvedor backend focado em Java e Node.js, construindo APIs robustas e bem estruturadas.',
+  description: 'Sistemas web, microsserviços e aplicações escaláveis.',
   url: 'https://cauegomes.dev',
   github: 'https://github.com/ccaueg',
   linkedin: 'https://linkedin.com/in/caue-gomes',

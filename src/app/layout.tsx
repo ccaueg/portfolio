@@ -48,6 +48,14 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
+  category: 'technology',
+  classification: 'Portfolio',
+  referrer: 'strict-origin-when-cross-origin',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   alternates: {
     canonical: '/',
   },
@@ -68,7 +76,10 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     siteName: siteConfig.name,
     locale: 'pt_BR',
+    countryName: 'Brazil',
     type: 'website',
+    emails: [siteConfig.email],
+    phoneNumbers: [siteConfig.phone],
     images: [
       {
         url: '/og.png',
@@ -83,6 +94,11 @@ export const metadata: Metadata = {
     title: pageTitle,
     description: pageDescription,
     images: ['/og.png'],
+  },
+  other: {
+    'og:image:type': 'image/png',
+    'og:image:width': '1200',
+    'og:image:height': '630',
   },
 }
 

@@ -29,7 +29,7 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/ccaueg/encurtador-url',
   },
   {
-    name: 'Sportize — Plataforma de Eventos Esportivos',
+    name: 'Sportize',
     description:
       'API escalável para gerenciamento de múltiplos eventos esportivos simultâneos, com controle de participantes, fases e autenticação segura via JWT. Regras de negócio completamente isoladas da infraestrutura.',
     tags: [

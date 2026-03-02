@@ -5,6 +5,8 @@ import { Footer } from '@/components/layout/footer'
 import { Nav } from '@/components/layout/nav'
 import { siteConfig } from '@/config/site'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -114,6 +116,9 @@ export default function RootLayout({
         <Nav />
         <main>{children}</main>
         <Footer />
+
+        <Analytics />
+        <SpeedInsights />
       </body>
       <script
         type="application/ld+json"

@@ -3,8 +3,8 @@ import type { ContactLink } from '@/types'
 export const contactLinks: ContactLink[] = [
   {
     key: 'email',
-    value: 'caue.gprieto@gmail.com',
-    href: 'mailto:caue.gprieto@gmail.com',
+    value: 'contact@cauegomes.dev',
+    href: 'mailto:contact@cauegomes.dev',
     icon: 'email',
   },
   {

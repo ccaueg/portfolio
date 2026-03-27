@@ -64,7 +64,7 @@ export const stack: StackCategory[] = [
       { name: 'Python' },
       { name: 'Selenium' },
       { name: 'OpenCV' },
-      { name: 'RAG' },
+      { name: 'RAG Architecture' },
       { name: 'NLP & LLMs' },
       { name: 'Machine Learning' },
       { name: 'Prompt Engineering' },

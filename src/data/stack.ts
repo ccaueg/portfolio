@@ -43,6 +43,7 @@ export const stack: StackCategory[] = [
     label: 'mensageria & eventos',
     items: [
       { name: 'Apache Kafka' },
+      { name: 'RabbitMQ' },
       { name: 'Microservices' },
       { name: 'Event-Driven Architecture' },
     ],
@@ -52,9 +53,21 @@ export const stack: StackCategory[] = [
     items: [
       { name: 'PostgreSQL' },
       { name: 'MySQL' },
-      { name: 'Oracle Database' },
+      { name: 'SQL Server' },
       { name: 'MongoDB' },
       { name: 'Redis' },
+    ],
+  },
+  {
+    label: 'automação & ia',
+    items: [
+      { name: 'Python' },
+      { name: 'Selenium' },
+      { name: 'OpenCV' },
+      { name: 'RAG' },
+      { name: 'NLP & LLMs' },
+      { name: 'Machine Learning' },
+      { name: 'Prompt Engineering' },
     ],
   },
   {
@@ -64,6 +77,7 @@ export const stack: StackCategory[] = [
       { name: 'Mockito' },
       { name: 'Vitest' },
       { name: 'TDD' },
+      { name: 'PMBOK' },
       { name: 'Scrum' },
       { name: 'Kanban' },
       { name: 'SOLID' },

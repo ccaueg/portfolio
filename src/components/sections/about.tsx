@@ -10,21 +10,22 @@ export function AboutSection() {
 
       <Fade delay={0.14}>
         <p className="max-w-150 text-[12px] leading-loose text-(--text)">
-          Sou um desenvolvedor web com foco em backend. Possuo experiência
-          prática na construção de APIs RESTful utilizando Java, trabalhando com
-          modelagem de dados, integração com banco de dados e organização de
-          camadas da aplicação para garantir clareza, manutenção e
-          escalabilidade.
+          Sou um técnico em informática e desenvolvedor em formação, com
+          experiência prática na construção de softwares escaláveis e bem
+          estruturados. Ao longo de 5 anos de estudo, desenvolvi APIs completas
+          utilizando ferramentas como Spring Boot e Node.js, aplicando design
+          patterns e boas práticas de desenvolvimento.
         </p>
       </Fade>
 
       <Fade delay={0.21}>
         <p className="mt-[1.1rem] max-w-150 text-[12px] leading-loose text-(--text)">
-          Também tenho experiência no desenvolvimento de aplicações utilizando
-          TypeScript e Node.js, além de familiaridade com frameworks modernos.
-          Participo ativamente da estruturação de projetos desde o levantamento
-          de requisitos até a implementação das funcionalidades, mantendo
-          atenção à qualidade do código, versionamento e documentação técnica.
+          Atualmente, mantenho uma rotina constante de estudos para aprimorar
+          minhas habilidades, buscando sempre me atualizar com as últimas
+          tendências e tecnologias do mercado. Estou buscando minha primeira
+          oportunidade profissional, onde possa aplicar meus conhecimentos e
+          contribuir para a perfomance do time, ao mesmo tempo em que continuo a
+          aprender e evoluir como desenvolvedor.
         </p>
       </Fade>
     </section>

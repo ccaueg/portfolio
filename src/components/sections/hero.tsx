@@ -46,12 +46,6 @@ export function HeroSection() {
           </h1>
         </Fade>
 
-        <Fade delay={0.21}>
-          <p className="mx-auto mb-10 max-w-120 text-[12px] leading-[1.9] text-[color-mix(in_oklab,var(--muted)_60%,var(--fg)_40%)] max-[560px]:mb-8 max-[560px]:max-w-[92%] max-[560px]:text-[11px] max-[560px]:leading-[1.8]">
-            {siteConfig.description}
-          </p>
-        </Fade>
-
         <Fade delay={0.24}>
           <div className="mb-10 flex items-start justify-center gap-4 max-[560px]:hidden">
             {contactLinks.map(link => {

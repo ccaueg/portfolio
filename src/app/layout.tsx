@@ -112,6 +112,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" data-theme="dark" className={jetbrainsMono.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: 'Cauê Gomes',
+              url: 'https://cauegomes.dev',
+              jobTitle: 'Backend Developer',
+              sameAs: [
+                'https://github.com/ccaueg',
+                'https://linkedin.com/in/caue-gomes',
+              ],
+            }),
+          }}
+        />
+      </head>
       <body className="antialiased">
         <Nav />
         <main>{children}</main>
@@ -120,22 +138,6 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
       </body>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Person',
-            name: 'Cauê Gomes',
-            url: 'https://cauegomes.dev',
-            jobTitle: 'Backend Developer',
-            sameAs: [
-              'https://github.com/ccaueg',
-              'https://linkedin.com/in/caue-gomes',
-            ],
-          }),
-        }}
-      />
     </html>
   )
 }
